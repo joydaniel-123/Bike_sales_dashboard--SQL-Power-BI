@@ -98,17 +98,11 @@ Dashboard: [View Dashboard](https://www.novypro.com/project/yogeshkasar97-1)
 
 Shows visualizations from Customer Retention analysis:
 
-| Customer Churn |
+| Bike sales |
 | ----------- |
-|![PWC Task 2-Customer Churn Retenstion_page-0002](https://user-images.githubusercontent.com/118357991/229330706-03af1d41-a7e3-4449-8867-55322ecdf371.jpg)|
+|![Bike sales dashboard](https://github.com/joydaniel-123/Bike_sales_dashboard-SQL.PowerBI/blob/main/asset/Power%20bi%20dashboard.PNG?raw=true)|
 
-| Customer Risk |
-| ----------- |
-|![PWC Task 2-Customer Churn Retenstion_page-0003](https://user-images.githubusercontent.com/118357991/229330924-5b82f4ab-8326-41f0-b001-e56eb264d3ba.jpg)|
 
-| Services |
-| ----------- |
-|![PWC Task 2-Customer Churn Retenstion_page-0004](https://user-images.githubusercontent.com/118357991/229330958-68b013f5-d013-4de6-a4f7-6a2500823de0.jpg)|
 
 ## Insights:
 
