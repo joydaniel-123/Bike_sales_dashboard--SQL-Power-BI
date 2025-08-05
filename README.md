@@ -26,9 +26,7 @@ The purpose of this task is to:
 - Include demographic insights about customers: gender, age bracket, and regional distribution to target marketing efforts effectively.
 ## Datasource :
 
-Dataset used for this task was presented by [Pwc](https://www.pwc.ch/en/careers-with-pwc/students/virtual-case-experience.html) and customer churn Retention dataset:
-
-Dataset: [Customer Churn Retention](https://github.com/yogeshkasar778/PWC_task_2---Customer_Churn_Retension_dashboard/blob/main/02%20Churn-Dataset.xlsx)
+Dataset used for this task was [Bike sales dataset](https://github.com/joydaniel-123/Bike_sales_dashboard-Excel/blob/7f7fa81b20af8ab224fff78705947e0cdb81478d/Bike%20sales%20dashboard.xlsx)
 
 ## Data Preparation:
 
