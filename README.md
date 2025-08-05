@@ -11,7 +11,7 @@ Developed an interactive dashboard in Power BI to analyze bike sales data. Used 
 - [Data Transformation](https://github.com/joydaniel-123/Bike_sales_dashboard-SQL.PowerBI/blob/main/README.md#key-transformations)
 - [Data Modeling](https://github.com/joydaniel-123/Bike_sales_dashboard-SQL.PowerBI/blob/main/README.md#data-modeling)
 - [Data Visualization (Dashboard)](https://github.com/joydaniel-123/Bike_sales_dashboard-SQL.PowerBI/blob/main/README.md#data-visualization-dashboard)
-- [Insights](https://github.com/yogeshkasar778/PWC_task_2-Customer_Churn_Retension_dashboard/edit/main/README.md#insights)
+- [Insights](https://github.com/joydaniel-123/Bike_sales_dashboard-SQL.PowerBI/blob/main/README.md#insights)
 - [Recommendation](https://github.com/yogeshkasar778/PWC_task_2-Customer_Churn_Retension_dashboard/edit/main/README.md#recommendation)
 
 ## Problem Statement :
