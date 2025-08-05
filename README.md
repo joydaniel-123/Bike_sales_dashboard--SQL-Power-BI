@@ -1,7 +1,7 @@
 # Bike Sales Dashboard - SQL, Power BI
 Developed an interactive dashboard in Power BI to analyze bike sales data. Used SQL for data cleaning and transformation, ensuring accurate and reliable insights. The dashboard highlights key metrics like total sales, regional performance, customer segments, and product trends to support data-driven decisions.
 
-![Bike Sales](https://user-images.githubusercontent.com/118357991/227788348-b988c4df-7923-46d6-8af7-102b8042f721.png)
+![Bike Sales](https://github.com/joydaniel-123/Bike_sales_dashboard-SQL.PowerBI/blob/main/asset/WhatsApp%20Image%20bike.jpg?raw=true)
 
 ## Table of Contents:
 
