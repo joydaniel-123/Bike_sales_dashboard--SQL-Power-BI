@@ -45,11 +45,11 @@ Bike Sales Data Preparation (Using SQL)
 
 - Age Grouping: Created age categories:
 
- `Age < 31 → Adolescent`
+   `Age < 31 → Adolescent`
 
- `31 ≤ Age ≤ 50 → Middle age`
+   `31 ≤ Age ≤ 50 → Middle age`
 
- `Age > 50 → Old `
+   `Age > 50 → Old `
 
 - Currency Label: Added a static column labeled 'USD' for currency.
 
