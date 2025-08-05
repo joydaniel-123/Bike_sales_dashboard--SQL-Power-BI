@@ -26,7 +26,7 @@ The purpose of this task is to:
 - Include demographic insights about customers: gender, age bracket, and regional distribution to target marketing efforts effectively.
 ## Datasource :
 
-Dataset used for this task was [Bike sales dataset](https://github.com/joydaniel-123/Bike_sales_dashboard-Excel/blob/7f7fa81b20af8ab224fff78705947e0cdb81478d/Bike%20sales%20dashboard.xlsx)
+Dataset used for this task was [Bike sales dataset](https://github.com/joydaniel-123/Bike_sales_dashboard-SQL.PowerBI/blob/fabe3fec07dc080e7a99a1e9fa29a5557721e8e0/bike%20sales%20dataset.csv)
 
 ## Data Preparation:
 
