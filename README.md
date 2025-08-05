@@ -92,7 +92,7 @@ Measures used in  all visualization are:
 
 Data visualization for the data analysis (DAX) was done in Microsoft Power BI Desktop:
 
-Dashboard: [Download Dashboard](https://github.com/joydaniel-123/Bike_sales_dashboard-SQL.PowerBI/blob/3e7cfbd1f3258e6ebc12e061f18220845accdffc/bike_sales.pbix)
+Dashboard: [Download Dashboard](https://app.powerbi.com/groups/me/reports/b0aecc26-4d0a-42bc-875e-e37cdb9a6ff7/ReportSection?experience=power-bi)
 
 Shows visualizations from Customer Retention analysis:
 
