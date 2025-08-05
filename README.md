@@ -29,35 +29,29 @@ The purpose of this task is to:
 Dataset used for this task was [Bike sales dataset](https://github.com/joydaniel-123/Bike_sales_dashboard-SQL.PowerBI/blob/fabe3fec07dc080e7a99a1e9fa29a5557721e8e0/bike%20sales%20dataset.csv)
 
 ## Data Preparation:
+
 Bike Sales Data Preparation (Using SQL)
 
-1. Imported Raw Data into SQL Server
- Imported the original Excel sheet into the Intern database as src_bike_sales.
+- Imported the original Excel sheet into the Intern database as src_bike_sales.
+- Created a Master_business table in the bike_sales_project database with codes (M, S) and labels (Married, Single).
+- Transferred this into the Intern database as src_Marital_status for lookup use.
+- Renamed Columns for Consistency
+- Used sp_rename to rename confusing column names (e.g., changed Couple to Code in src_Marital_status).
+- Created a new cleaned table: stg_bike_sales from src_bike_sales using SELECT INTO.
 
-2. Created a Reference Table for Marital Status
-Created a Master_business table in the bike_sales_project database with codes (M, S) and labels (Married, Single).
+## Key transformations:
 
-Transferred this into the Intern database as src_Marital_status for lookup use.
+- Marital Status: Used CASE to translate M and S codes into "Married" and "Single".
 
-3. Renamed Columns for Consistency
-Used sp_rename to rename confusing column names (e.g., changed Couple to Code in src_Marital_status).
+- Age Grouping: Created age categories:
 
-4. Transformed and Cleaned Main Table
-Created a new cleaned table: stg_bike_sales from src_bike_sales using SELECT INTO.
+ `Age < 31 → Adolescent`
 
-Key transformations:
+ `31 ≤ Age ≤ 50 → Middle age`
 
-Marital Status: Used CASE to translate M and S codes into "Married" and "Single".
+ `Age > 50 → Old `
 
-Age Grouping: Created age categories:
-
-Age < 31 → Adolescent
-
-31 ≤ Age ≤ 50 → Middle age
-
-Age > 50 → Old
-
-Currency Label: Added a static column labeled 'USD' for currency.
+- Currency Label: Added a static column labeled 'USD' for currency.
 
 NB: [Download the Sql Script]
 
