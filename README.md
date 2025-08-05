@@ -29,24 +29,37 @@ The purpose of this task is to:
 Dataset used for this task was [Bike sales dataset](https://github.com/joydaniel-123/Bike_sales_dashboard-SQL.PowerBI/blob/fabe3fec07dc080e7a99a1e9fa29a5557721e8e0/bike%20sales%20dataset.csv)
 
 ## Data Preparation:
+Bike Sales Data Preparation (Using SQL)
 
-Completed the Data transformation in Power Query and the dataset loaded into Microsoft Power BI Desktop for modeling.
+1. Imported Raw Data into SQL Server
+ Imported the original Excel sheet into the Intern database as src_bike_sales.
 
-Customer Churn dataset is give table named:
+2. Created a Reference Table for Marital Status
+Created a Master_business table in the bike_sales_project database with codes (M, S) and labels (Married, Single).
 
-- `Customer churn dataset` which has `23 columns and 7043 rows` of observation
+Transferred this into the Intern database as src_Marital_status for lookup use.
 
-Data Cleaning for the dataset was done in the power query editor as follows:
+3. Renamed Columns for Consistency
+Used sp_rename to rename confusing column names (e.g., changed Couple to Code in src_Marital_status).
 
-- Replaced  the value is `SeniorCitizen` N coverted No and Y converted Yes
+4. Transformed and Cleaned Main Table
+Created a new cleaned table: stg_bike_sales from src_bike_sales using SELECT INTO.
 
-In the new table, one additional conditional columns were added using M-formula:
+Key transformations:
 
-- loyalty = `SWITCH(TRUE(),'01 Churn-Dataset'[tenure]<=12,"< 1 year",'01 Churn-Dataset'[tenure]<=24,"< 2 years",'01 Churn-Dataset'[tenure]<=36,"< 3 years",'01 Churn-Dataset'[tenure]<=48,"< 4 years", '01 Churn-Dataset'[tenure]<=60,"< 5 years",'01 Churn-Dataset'[tenure]<=72,"< 6 years")`
+Marital Status: Used CASE to translate M and S codes into "Married" and "Single".
 
-- Removed Unnecessary columns 
-- Removed Unnecessary rows
-- Each of the columns in the table were validated to have the correct data type
+Age Grouping: Created age categories:
+
+Age < 31 → Adolescent
+
+31 ≤ Age ≤ 50 → Middle age
+
+Age > 50 → Old
+
+Currency Label: Added a static column labeled 'USD' for currency.
+
+NB: [Download the Sql Script]
 
 ## Data Modeling:
 
